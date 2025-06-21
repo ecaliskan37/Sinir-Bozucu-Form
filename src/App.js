@@ -154,6 +154,7 @@ export default function App() {
               name="privacyResponse"
               value="yes"
               onChange={handleChange}
+              checked={formData.privacyResponse}
             />
             Evet
           </label>
