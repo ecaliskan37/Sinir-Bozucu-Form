@@ -154,7 +154,7 @@ export default function App() {
               name="privacyResponse"
               value="yes"
               onChange={handleChange}
-              checked={formData.privacyResponse}
+              checked={formData.privacyResponse === yes}
             />
             Evet
           </label>
@@ -166,7 +166,7 @@ export default function App() {
               name="privacyResponse"
               value="no"
               onChange={handleChange}
-              checked={formData.privacyResponse}
+              checked={formData.privacyResponse === no}
             />
             Hayır
           </label>
@@ -178,7 +178,7 @@ export default function App() {
               name="privacyResponse"
               value="absolutely"
               onChange={handleChange}
-              checked={formData.privacyResponse}
+              checked={formData.privacyResponse === absolutely}
             />
             Kesinlikle
           </label>
@@ -215,7 +215,7 @@ export default function App() {
           type="checkbox"
           name="marketingResponse"
           onChange={handleChange}
-          value={formData.marketingResponse}
+          checked={formData.marketingResponse}
         />
 
         <div className="checkmark"></div>
