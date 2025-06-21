@@ -165,7 +165,7 @@ export default function App() {
               name="privacyResponse"
               value="no"
               onChange={handleChange}
-              checked={formData.checked}
+              checked={formData.privacyResponse}
             />
             Hayır
           </label>
